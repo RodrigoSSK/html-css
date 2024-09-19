@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:'Captain American' ;
+            src: url('fonts/American\ Captain.otf') format('opetype'), url('fonts/American\ Captain.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+
+            /*
+               Tipos de format()
+               - opentype (otf)
+               - truetype (ttf)
+               - embedded-opentype
+               - truetype-aat (Apple Advanced Typography)
+               - svg
+            */
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Captain American', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius labore dignissimos, reiciendis unde recusandae
+        consectetur asperiores possimus quisquam veniam aspernatur quae culpa quis expedita rem numquam blanditiis porro
+        similique beatae.</p>
+</body>
+
+</html>
