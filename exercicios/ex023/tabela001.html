@@ -11,6 +11,7 @@
 
         table{
             width: 400px;
+            height: 400px;
             border-collapse: collapse; /* Propriedade para fazer com que a borda se junte */
             
         }
@@ -25,18 +26,16 @@
 
         td{
             border: 1px solid black;
-            padding: 5px;            
+            padding: 5px;        
+            text-align: center; /* Alinhamento horizontal da tabela */     
+            vertical-align: middle; /* Alinhamento vertical da tabela */
         }
 
-        tr.linha{
-            background-color: grey;
-            color: white;
+        td.numero{
+            text-align: right;
         }
 
-        td.dado{
-            background-color: yellow;
         
-        }
     </style>
 </head>
 <body>
@@ -62,12 +61,12 @@
         </tr>
         <tr> <!-- Segunda linha -->
             <td>A2</td>
-            <td class="dado">B2</td>
+            <td class="numero">200</td>
             <td>C2</td>
         </tr>
-        <tr class="linha"><!-- Terceira linha -->
+        <tr><!-- Terceira linha -->
             <td>A3</td>
-            <td>B3</td>
+            <td class="numero">300</td>
             <td>C3</td>
         </tr>
         <tr>
