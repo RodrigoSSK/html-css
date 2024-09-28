@@ -19,6 +19,16 @@
             height: 200px;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
+        }
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            width: 500px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
         }
 
         td, th{
@@ -38,6 +48,12 @@
             color: white;
         }
 
+        thead > tr > th{
+            position: sticky; /* propriedade para fixar o cabeçalho ao topo da página */
+            top: -1px; /* -1 pixel para grudar ao topo, com 0 px ainda fica uma brechinha na tela */
+            background-color:rgb(51, 48, 48) ;/* BG color utilizado pois sem ele só se fixam os títulos */
+        }
+
         tbody > tr:nth-child(odd){ /* de duas em duas linhas irá ser colocado uma tarja cinza */
             background-color: lightgray;
         }
@@ -49,6 +65,7 @@
         td.num{
             text-align: right;
         }
+
     </style>
 </head>
 <body>
@@ -123,6 +140,81 @@
                 <td class="num">8 664 306</td>
                 <td class="num">4,1%</td>
             </tr>
+            <tr>
+                <td>Exemplo</td>
+                <td class="num">0</td>
+                <td class="num">0%</td>
+            </tr>
+            <tr>
+                <td>Exemplo</td>
+                <td class="num">0</td>
+                <td class="num">0%</td>
+            </tr>
+            <tr>
+                <td>Exemplo</td>
+                <td class="num">0</td>
+                <td class="num">0%</td>
+            </tr>
+            <tr>
+                <td>Exemplo</td>
+                <td class="num">0</td>
+                <td class="num">0%</td>
+            </tr>
+            <tr>
+                <td>Exemplo</td>
+                <td class="num">0</td>
+                <td class="num">0%</td>
+            </tr>
+            <tr>
+                <td>Exemplo</td>
+                <td class="num">0</td>
+                <td class="num">0%</td>
+            </tr>
+            <tr>
+                <td>Exemplo</td>
+                <td class="num">0</td>
+                <td class="num">0%</td>
+            </tr>
+            <tr>
+                <td>Exemplo</td>
+                <td class="num">0</td>
+                <td class="num">0%</td>
+            </tr>
+            <tr>
+                <td>Exemplo</td>
+                <td class="num">0</td>
+                <td class="num">0%</td>
+            </tr>
+            <tr>
+                <td>Exemplo</td>
+                <td class="num">0</td>
+                <td class="num">0%</td>
+            </tr>
+            <tr>
+                <td>Exemplo</td>
+                <td class="num">0</td>
+                <td class="num">0%</td>
+            </tr>
+            <tr>
+                <td>Exemplo</td>
+                <td class="num">0</td>
+                <td class="num">0%</td>
+            </tr>
+            <tr>
+                <td>Exemplo</td>
+                <td class="num">0</td>
+                <td class="num">0%</td>
+            </tr>
+            <tr>
+                <td>Exemplo</td>
+                <td class="num">0</td>
+                <td class="num">0%</td>
+            </tr>
+            <tr>
+                <td>Exemplo</td>
+                <td class="num">0</td>
+                <td class="num">0%</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
@@ -131,6 +223,15 @@
                 <td class="num"><strong>65,83%</strong></td>
             </tr>
         </tfoot>
+        
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis doloremque consectetur deserunt repellat debitis animi aliquam officia accusamus possimus dolorum soluta obcaecati ipsum, iure, illum, est fugit molestiae exercitationem magnam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus pariatur nihil dolores optio! Iusto ipsa fugiat rerum vitae repellat? Tempora soluta dignissimos iusto qui sed ex quibusdam aliquid quae eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil alias eveniet incidunt, ipsum pariatur vel eos quos nemo accusamus illum repellendus enim expedita molestias, eum itaque aut dolor ullam deleniti? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique veritatis ea perferendis nobis delectus! Excepturi quasi minus numquam. Praesentium in impedit ipsam nisi maiores unde hic laudantium ex, quisquam illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci saepe error dolore, suscipit quo esse, aperiam commodi incidunt quae dolores officiis assumenda sint voluptas similique fugiat, optio reprehenderit. Consectetur, magni.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis doloremque consectetur deserunt repellat debitis animi aliquam officia accusamus possimus dolorum soluta obcaecati ipsum, iure, illum, est fugit molestiae exercitationem magnam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus pariatur nihil dolores optio! Iusto ipsa fugiat rerum vitae repellat? Tempora soluta dignissimos iusto qui sed ex quibusdam aliquid quae eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil alias eveniet incidunt, ipsum pariatur vel eos quos nemo accusamus illum repellendus enim expedita molestias, eum itaque aut dolor ullam deleniti? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique veritatis ea perferendis nobis delectus! Excepturi quasi minus numquam. Praesentium in impedit ipsam nisi maiores unde hic laudantium ex, quisquam illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci saepe error dolore, suscipit quo esse, aperiam commodi incidunt quae dolores officiis assumenda sint voluptas similique fugiat, optio reprehenderit. Consectetur, magni.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis doloremque consectetur deserunt repellat debitis animi aliquam officia accusamus possimus dolorum soluta obcaecati ipsum, iure, illum, est fugit molestiae exercitationem magnam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus pariatur nihil dolores optio! Iusto ipsa fugiat rerum vitae repellat? Tempora soluta dignissimos iusto qui sed ex quibusdam aliquid quae eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil alias eveniet incidunt, ipsum pariatur vel eos quos nemo accusamus illum repellendus enim expedita molestias, eum itaque aut dolor ullam deleniti? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique veritatis ea perferendis nobis delectus! Excepturi quasi minus numquam. Praesentium in impedit ipsam nisi maiores unde hic laudantium ex, quisquam illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci saepe error dolore, suscipit quo esse, aperiam commodi incidunt quae dolores officiis assumenda sint voluptas similique fugiat, optio reprehenderit. Consectetur, magni.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis doloremque consectetur deserunt repellat debitis animi aliquam officia accusamus possimus dolorum soluta obcaecati ipsum, iure, illum, est fugit molestiae exercitationem magnam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus pariatur nihil dolores optio! Iusto ipsa fugiat rerum vitae repellat? Tempora soluta dignissimos iusto qui sed ex quibusdam aliquid quae eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil alias eveniet incidunt, ipsum pariatur vel eos quos nemo accusamus illum repellendus enim expedita molestias, eum itaque aut dolor ullam deleniti? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique veritatis ea perferendis nobis delectus! Excepturi quasi minus numquam. Praesentium in impedit ipsam nisi maiores unde hic laudantium ex, quisquam illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci saepe error dolore, suscipit quo esse, aperiam commodi incidunt quae dolores officiis assumenda sint voluptas similique fugiat, optio reprehenderit. Consectetur, magni.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis doloremque consectetur deserunt repellat debitis animi aliquam officia accusamus possimus dolorum soluta obcaecati ipsum, iure, illum, est fugit molestiae exercitationem magnam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus pariatur nihil dolores optio! Iusto ipsa fugiat rerum vitae repellat? Tempora soluta dignissimos iusto qui sed ex quibusdam aliquid quae eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil alias eveniet incidunt, ipsum pariatur vel eos quos nemo accusamus illum repellendus enim expedita molestias, eum itaque aut dolor ullam deleniti? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique veritatis ea perferendis nobis delectus! Excepturi quasi minus numquam. Praesentium in impedit ipsam nisi maiores unde hic laudantium ex, quisquam illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci saepe error dolore, suscipit quo esse, aperiam commodi incidunt quae dolores officiis assumenda sint voluptas similique fugiat, optio reprehenderit. Consectetur, magni.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis doloremque consectetur deserunt repellat debitis animi aliquam officia accusamus possimus dolorum soluta obcaecati ipsum, iure, illum, est fugit molestiae exercitationem magnam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus pariatur nihil dolores optio! Iusto ipsa fugiat rerum vitae repellat? Tempora soluta dignissimos iusto qui sed ex quibusdam aliquid quae eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil alias eveniet incidunt, ipsum pariatur vel eos quos nemo accusamus illum repellendus enim expedita molestias, eum itaque aut dolor ullam deleniti? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique veritatis ea perferendis nobis delectus! Excepturi quasi minus numquam. Praesentium in impedit ipsam nisi maiores unde hic laudantium ex, quisquam illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci saepe error dolore, suscipit quo esse, aperiam commodi incidunt quae dolores officiis assumenda sint voluptas similique fugiat, optio reprehenderit. Consectetur, magni.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis doloremque consectetur deserunt repellat debitis animi aliquam officia accusamus possimus dolorum soluta obcaecati ipsum, iure, illum, est fugit molestiae exercitationem magnam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus pariatur nihil dolores optio! Iusto ipsa fugiat rerum vitae repellat? Tempora soluta dignissimos iusto qui sed ex quibusdam aliquid quae eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil alias eveniet incidunt, ipsum pariatur vel eos quos nemo accusamus illum repellendus enim expedita molestias, eum itaque aut dolor ullam deleniti? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique veritatis ea perferendis nobis delectus! Excepturi quasi minus numquam. Praesentium in impedit ipsam nisi maiores unde hic laudantium ex, quisquam illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci saepe error dolore, suscipit quo esse, aperiam commodi incidunt quae dolores officiis assumenda sint voluptas similique fugiat, optio reprehenderit. Consectetur, magni.</p>
 </body>
 </html>
