@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" autocomplete="off" method="post">
+        <p><label for="iNome">Nome:</label> <input type="text" name="Nome" id="iNome"><!-- Para linguagem PHP e HTML o "name" é mais importante, já para a linguagem JavaScript e para o label o "id" é mais importante. -->
+        <p><label for="iSobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="iSobrenome"><!-- Label são importantes para relacionar os elementos -->
+        <p><input type="submit" value="Enviar"></p>
+
+        <!-- Dados por "get" se limitam à 3000 bytes (3000 letras), também não poderá ser utilizado o metodo "get" quando os dados forem sensíveis (senha, cartão de crédito etc.) e/ou envio de fotos/ arquivos. Para envio de dados sensíveis utilizamos HTTPS. Para os dados não aparecerem diretamente na url, envio de arquivos e terem mais de 3000 bytes utilizamos o "post" -->
+    </form>
+
+</body>
+</html>
