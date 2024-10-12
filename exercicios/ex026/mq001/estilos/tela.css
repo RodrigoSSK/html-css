@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* Estilo para telas */ 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+header {
+    background-color: lightgray;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+menu ul {
+    background-color: darkgray;
+    list-style-type: none;
+}
+
+menu li {
+    background-color: rgb(73, 72, 72);
+    display: inline-block;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: rgb(117, 109, 109);
+    color: white;
+    text-decoration: underline;
+}
+
+menu a {
+    text-decoration: none;
+    color: white;
+}
+
+article {
+    background-color: white;
+    display: block;
+    margin: auto;
+    padding: 30px;
+    max-width: 600px;
+    text-align: justify;
+}
+
+article p {
+    padding: 10px;
+}
+
+article h2 { 
+    padding: 10px;
+}
